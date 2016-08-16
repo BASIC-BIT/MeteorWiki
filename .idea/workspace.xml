@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2e62b8b-e97e-414f-b451-a2f207b282ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/main.js" afterPath="$PROJECT_DIR$/server/main.js" />
-    </list>
+    <list default="true" id="d2e62b8b-e97e-414f-b451-a2f207b282ac" name="Default" comment="" />
     <ignored path="wiki.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -368,15 +366,15 @@
       <updated>1470426389753</updated>
       <workItem from="1470426391382" duration="7802000" />
       <workItem from="1470683810809" duration="6408000" />
-      <workItem from="1471356422190" duration="25000" />
+      <workItem from="1471356422190" duration="172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14235000" />
+    <option name="totallyTimeSpent" value="14382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-376" width="1096" height="1896" extended-state="6" />
+    <frame x="1912" y="-376" width="1096" height="1896" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44444445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
