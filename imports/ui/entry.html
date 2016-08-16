@@ -1,0 +1,6 @@
+<template name="wikiEntry">
+    <a href="/">Back</a><br>
+    <h2>{{entry.title}}</h2>
+    <a href="{{pathFor '/entry/:postId/edit' postId=entry._id}}">Edit</a>
+    <p class="pre">{{entry.body}}</p>
+</template>

@@ -1,0 +1,11 @@
+{
+  "name": "wiki",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "globals": "^9.9.0",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}

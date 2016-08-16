@@ -1,0 +1,9 @@
+/* CSS declarations go here */
+
+.pre {
+    white-space: pre;
+}
+
+main {
+    margin-top: 30px;
+}

@@ -1,0 +1,9 @@
+<template name="wikiLayout">
+    <header>  <h1><span style="color: #5AF">B</span>asically<span style="color: #5AF">S</span>tevens<span style="color: #5AF">W</span>iki</h1>
+    {{> loginButtons}}
+    </header>
+    <main>
+        {{>Template.dynamic template=content}}
+    </main>
+    <footer style="color:#AAA"><br><br><br>Written in Meteor by Steven Kneisler</footer>
+</template>

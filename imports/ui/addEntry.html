@@ -1,0 +1,18 @@
+<template name="addEntry">
+	<form class="add_entry" name="add_entry" action="" method="post">
+        <a href="{{pathFor '/'}}">Back</a><br><br>
+		<h2>Add Entry</h2>
+		<span class="required_notification">* Denotes Required Filed</span>
+		<ul>
+			<li>
+				<label for="title">Title:</label><br>
+				<input type="text" name="title"/>
+			</li>
+			<li>
+				<label for="body">Body:</label><br>
+				<textarea name="body" cols="50" rows="8"></textarea>
+			</li>
+		</ul>
+		<input type="submit" />
+	</form>
+</template>

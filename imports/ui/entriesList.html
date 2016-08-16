@@ -1,0 +1,27 @@
+<template name="wikiLinkList">
+    {{>Template.dynamic template=sortOrder}}
+    <br><a href="{{pathFor '/add'}}">Add Entry</a>
+</template>
+
+<template name="wikiLinkList_alphabetical">
+    <h4><a name="toggleSort" class="toggleSort" href={{pathFor "/sort/newest"}}>Change Sort</a>   Alphabetical</h4><br>
+    {{#each entries}}
+        {{> wikiLinkEntry}}
+    {{/each}}
+</template>
+
+<template name="wikiLinkList_newest">
+    <h4><a name="toggleSort" class="toggleSort" href={{pathFor "/sort/alpha"}}>Change Sort</a>   Last Modified Date</h4><br>
+    {{#each entries}}
+        {{> wikiLinkEntryWithDate}}
+    {{/each}}
+</template>
+
+
+<template name="wikiLinkEntry">
+  <h3><a href="{{pathFor '/entry/:postId' postId =_id}}">{{title}}</a></h3>
+</template>
+
+<template name="wikiLinkEntryWithDate">
+    <h3>{{dateNice}}: <a href="{{pathFor '/entry/:postId' postId =_id}}">{{title}}</a></h3>
+</template>

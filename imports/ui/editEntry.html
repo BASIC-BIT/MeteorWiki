@@ -1,0 +1,19 @@
+<template name="editEntry">
+	<form class="edit_entry" name="edit_entry" action="" method="post">
+        <a href="{{pathFor '/entry/:postId' postId=entry._id}}">Back</a>
+		<h2>Edit Entry</h2>
+		<span class="required_notification">* Denotes Required Filed</span>
+		<ul>
+			<li>
+				<label for="title">Title:</label><br>
+				<input type="text" size="79" name="title" value="{{entry.title}}"/>
+			</li>
+			<li>
+				<label for="body">Body:</label><br>
+				<textarea name="body" cols="80" rows="15">{{entry.body}}</textarea>
+			</li>
+		</ul>
+		<input type="submit" />
+        <button type="button" name="delete_button" class="delete_button">Delete</button>
+	</form>
+</template>
